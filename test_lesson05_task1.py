@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 def test_navigation():
     driver = webdriver.Chrome()
-    wait = WebDriverWait(driver, 15)  # Ждём до 10 секунд
+    wait = WebDriverWait(driver, 15)  # Ждём до 15 секунд
 
     driver.get("https://httpbin.org/")
     driver.maximize_window()
