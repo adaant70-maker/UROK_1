@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+__pycache__/
+*.pyc
+.vscode/
+.pytest_cache/
+=======
+@"
+.pytest_cache/
+__pycache__/
+*.pyc
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
+>>>>>>> cefa8ee (Add .gitignore and remove cache files)
